@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as Soup
 import re
 import os
 
-os.chdir('/media/drupchen/42DE16ECDE16D7CD/Users/Hélios/Documents/eTexts-ALL-TEI-20150112/db/eTextsChunked/Various')
+os.chdir('<path to your local xml folder>')
 
 for Folder in os.listdir('.'):
     if not Folder.startswith('_'):
